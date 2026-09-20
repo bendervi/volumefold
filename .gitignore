@@ -1,0 +1,23 @@
+# Swift Package Manager build output and local workspace configuration
+/.build/
+/.swiftpm/
+
+# Xcode build output, exported apps, and debug symbols
+/build/
+/DerivedData/
+*.app/
+*.dSYM/
+*.dSYM.zip
+*.xcarchive/
+*.xcresult/
+
+# Per-user Xcode settings (keep shared schemes and project files)
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# macOS Finder metadata and AppleDouble files
+.DS_Store
+._*
+.AppleDouble/
